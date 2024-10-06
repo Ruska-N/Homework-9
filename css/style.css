@@ -18,3 +18,37 @@
     padding: 12px 24px;
     border-radius: 32px;
 }
+
+/* section 1 styles */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0 64px 0;
+}
+.section1-div1 {
+    width: 490px;
+    margin-right: 130px;
+}
+.main-title {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.title-text {
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 28px;
+}
+.title-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.action-text {
+    width: 236px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
