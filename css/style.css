@@ -52,3 +52,43 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+/* section 2 styles */
+.section2 {
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0 64px 0;
+}
+.section2-container {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2-box {
+    width: 360px;
+}
+.dot-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.black-dot {
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.black-dot-title {
+    width: 102.2px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.black-dot-text {
+    width: 335.35px;
+}
