@@ -21,10 +21,14 @@
 
 /* section 1 styles */
 .section1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 64px 0 64px 0;
+}
+.section1-container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 .section1-div1 {
     width: 490px;
@@ -91,4 +95,38 @@
 }
 .black-dot-text {
     width: 335.35px;
+}
+
+/* section 3 styles */
+.section3 {
+    background-color: #000000;
+    padding: 96px 0 96px 0;
+}
+.section3-container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.section3-image {
+    border-radius: 12px;
+}
+.section3-div {
+    color: #FFFFFF;
+    width: 503.5px;
+    margin-left: ;
+}
+.section3-title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.section3-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+}
+.list-item {
+    margin-bottom: 8px;
 }
