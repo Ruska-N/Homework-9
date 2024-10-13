@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .column-last {
+        display: none;
+    }
+}
+
+@media (max-width: 744px) {
+    .section2-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section2-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}    
+
+@media (max-width: 375px) {
+    .footer-container {
+        align-items: center;
+        text-align: center;
+    }
+    .footer-columns {
+        column-gap: 10px;
+    }
+}
